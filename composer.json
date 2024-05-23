@@ -1,0 +1,32 @@
+{
+  "name": "matheusgzancanela/phptips007",
+  "description": "DESCOMPLICANDO MVC COM PHP DO JEITO CERTO | PHP TIPS #007",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "coffeecode/datalayer": "1.1.2",
+    "coffeecode/router": "1.0.5",
+    "league/plates": "v4.0.0-alpha"
+  }
+}
